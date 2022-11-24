@@ -1,0 +1,285 @@
+@media screen and ( max-width: 1200px )
+	
+	.menu
+		.menu_item
+			padding-right: 19px
+		.menu_link
+			font-size: 14px
+	.sabheader
+		&_nomder
+			font-size: 18px
+
+	.promo
+		h1
+			font-size: 50px
+	
+.mobile
+	&_item
+		width: 300px
+.footer
+	&_linkk
+		&_item
+			margin-left: 46px
+
+@media screen and ( max-width: 991px )
+	.menu
+		.menu_item
+			padding-right: 12px
+		.menu_link
+			font-size: 10px
+
+
+	.sabheader
+		&__nomder
+			font-size: 20px
+		&_logo
+			img
+				width: 100%
+		&_text
+			font-size: 12px
+	.sabheader .sabheader_btn
+		margin-top: 21px
+		height: 46px
+		width: 100%
+		&:hover
+			background-image: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
+	.promo 
+		h1
+
+			font-size: 47px
+	.homework
+		&_item
+			flex-direction: column
+			align-items: center
+
+		&_artical
+			margin-top: 20px
+			width: 300px
+	.mobile
+		&_item
+			width: 220px
+			&_subtitle
+				font-size: 20px
+	.avto
+		position: relative
+		background: url("../img/avto_back.jpg") center (center / cover) no-repeat
+		min-height: 393px
+		&_img
+			display: none
+		&_mobile
+			display: block
+			position: absolute
+			width: 300px
+			height: 190px
+			margin-top: 83px
+			left: 50%
+			transform: translateX(-50%)
+	.footer
+		&_linkk
+			&_item
+				margin-left: 12px
+				&_one
+					font-size: 13px
+				&_two
+					font-size: 13px
+				&_free
+					font-size: 13px
+
+@media screen and ( max-width: 767px )
+	.menu
+		position: fixed
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		top: 0
+		left: -100%
+		width: 50%
+		height: 130vh
+		padding: 20px 15px 
+		background-color: rgba(0,0 ,0 ,.8 )
+		transition: 0.9s all
+		z-index: 2
+		&_active
+			left:0
+		.menu_item
+			padding-right: 0
+			border: none
+			margin: 7px
+		.menu_link
+			font-size: 20px
+			margin-bottom: 10px
+
+		
+	
+	.hamburger
+		display: block
+		position: absolute
+		right: 10px
+		top: 50%
+		transform: translateY(-50%)
+		width: 26px
+		height: 12px
+		span
+			display: block
+			height: 2px
+			background-color: white
+			margin-bottom: 2px
+			transition: 0.6s
+		&_active
+			span
+				margin-bottom: -2px
+				&:nth-child(1)
+					transform: translateY(3px) rotate(-45deg)
+				&:nth-child(2)
+					display: none
+				&:nth-child(3)
+					transform: translateY(3px) rotate(45deg)
+	.xs-hidden
+		display: none
+	.xs-visible 
+		display: block
+	.sabheader
+		&_nomder
+			font-weight: 400
+			font-size: 16px
+			line-height: 33px
+			text-transform: uppercase
+			text-align: center
+		.btn
+			display: block
+			margin-top: 0px
+			width: 200px
+			height: 40px
+			margin: 0 auto
+	.promo
+		&_descr
+			font-weight: 400
+			font-size: 18px
+			line-height: 24px
+			align-items: center
+			text-align: center
+			color: #FFFFFF
+	.homework
+		&_item
+			align-content: center
+			text-align: center
+
+		&_artical
+			display: block
+			margin-right: 0px
+			align-content: center
+			text-align: center
+	.avto
+		position: relative
+		background: url("../img/bg_mobile.jpg") center (center / cover) no-repeat
+		min-height: 393px
+		&_img
+			display: none
+		&_mobile
+			display: block
+			position: absolute
+			width: 300px
+			height: 190px
+			margin-top: 83px
+			left: 50%
+			transform: translateX(-50%)
+
+
+@media screen and ( max-width: 575px )
+	.menu
+		width: 80%
+		height: 100vh
+		&_item
+			width: 100%
+			text-align: center
+		&_link
+			display: block
+			padding: 10px 0
+	.sabheader
+		height: 60px
+		&_text
+			display: none
+		&_logo 
+			margin-top: 17px
+		.btn
+			margin-top: 2px
+			width: 110px
+			height: 22px
+			font-size: 9px
+			&:hover
+				background-image: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
+		&_nomber
+			font-size: 12px
+			margin-top: 11px
+	.promo
+		min-height: 400px
+		padding: 101px 0 34px 0 
+		&_descr
+			display: none
+		h1
+			
+			font-size: 30px
+			line-height: 35px
+			padding: 0 24px
+		h2
+			
+			font-size: 22px
+			margin-top: 33px
+			padding: 0 10px
+			line-height: 30px
+		&_btn
+			display: block
+			width: 210px
+			height: 50px
+			line-height: 52px
+			&:hover
+				background-image: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
+
+	
+	.titlee
+		font-weight: 700
+		font-size: 18px
+		line-height: 16px
+	.homework
+		&_artical
+			display: block
+			margin-left: 0
+	.subtitle
+		margin-top: 9px
+	.mobile
+		&_item
+			&_subtitle 
+				font-size: 16px
+				line-height: 31px
+	.avto
+		position: relative
+		background: url("../img/bg_mobile.jpg") center (center / cover) no-repeat
+		min-height: 393px
+		&_img
+			display: none
+		&_mobile
+			display: block
+			position: absolute
+			width: 300px
+			height: 190px
+			margin-top: 83px
+			left: 50%
+			transform: translateX(-50%)
+	
+	.lable
+		margin-top: 22px
+
+			
+			
+			
+
+		
+
+	
+
+					
+
+
+
+				
+				
